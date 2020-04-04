@@ -9,7 +9,7 @@ int main(void){
     fp1 = fopen("file1", "w");
     assert(fp1 != NULL);
     for(int i=0;i<10;i++){
-        fprintf(fp1, "%d\n", i);
+        fprintf(fp1, "%d\n", i);//\n要記得加，不然會有問題
     }
     fclose(fp1);
 
