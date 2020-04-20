@@ -12,6 +12,7 @@ int main(void){
     foo();
     if (i==10){
         int i = 20;
+        printf("if: %d\n", i++);
     }
     printf("main: %d", i);
     return 0;
